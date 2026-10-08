@@ -1,0 +1,7 @@
+[package]
+name = "alloc-lighting"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bumpalo = { version = "3", features = ["allocator_api"] }
